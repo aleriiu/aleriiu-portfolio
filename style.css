@@ -296,6 +296,10 @@ footer {
         text-align: justify;
     }
 
+    .skill-text-center {
+        text-align: center;
+    }
+
     .skills-container {
         gap: 0.9rem;
     }
