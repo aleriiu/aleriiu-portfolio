@@ -160,6 +160,10 @@ header {
     display: block;
 }
 
+.card-email {
+    width: 23%;
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -319,5 +323,9 @@ footer {
 
     .card-container {
         gap: 1rem;
+    }
+
+    .card-email {
+        width: 47%;
     }
 }
