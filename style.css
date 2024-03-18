@@ -39,7 +39,7 @@ header {
 }
 
 .logo {
-    font-family: "Balsamiq Sans", sans-serif;
+    font-family: "RocknRoll One", sans-serif;
     font-weight: 700;
     font-size: 2rem;
     color: #1071c5;
@@ -66,10 +66,11 @@ header {
     font-size: 3rem;
     font-weight: 400;
     color: #000000;
+    padding-bottom: 0.8rem;
 }
 
 .hero-container_title>span {
-    color: #1071c5;
+    color: #68abe8;
     font-size: 4rem;
     font-weight: 700;
 }
@@ -80,8 +81,12 @@ header {
     color: #000000;
 }
 
+.hero-photo {
+    width: 30%;
+}
+
 .hero-photo>img {
-    width: 336px;
+    width: 100%;
     border-radius: 16px;
 }
 
@@ -235,10 +240,6 @@ footer {
         width: 59%;
     }
 
-    .hero-photo>img {
-        width: 290px;
-    }
-
     .hero-container_text {
         font-size: 1.2rem;
     }
@@ -327,5 +328,9 @@ footer {
 
     .card-email {
         width: 47%;
+    }
+
+    .hero-photo {
+        width: 100%;
     }
 }
