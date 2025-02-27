@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-    color: #68abe8;
+    color: #fe1100;
 }
 
 header,
@@ -42,7 +42,7 @@ header {
     font-family: "RocknRoll One", sans-serif;
     font-weight: 700;
     font-size: 2rem;
-    color: #1071c5;
+    color: #fe1100;
 }
 
 .header-links {
@@ -70,7 +70,7 @@ header {
 }
 
 .hero-container_title>span {
-    color: #68abe8;
+    color: #fe1100;
     font-size: 4rem;
     font-weight: 700;
 }
@@ -106,7 +106,7 @@ header {
 }
 
 .skill {
-    border: 1px solid #68abe8;
+    border: 1px solid #fe1100;
     background-color: #ffffff;
     border-radius: 20px;
     padding: 3.313rem;
@@ -138,7 +138,7 @@ header {
 .cards-title,
 .card-title {
     font-size: 2.5rem;
-    color: #1071c5;
+    color: #fe1100;
     font-weight: 600;
 }
 
@@ -157,7 +157,7 @@ header {
     width: 30%;
     overflow: hidden;
     border-radius: 20px;
-    border: 1px solid #68abe8;
+    border: 1px solid #fe1100;
 }
 
 .card>a>img {
@@ -191,7 +191,7 @@ header {
     right: 0;
     left: 0;
     transform: translateY(100%);
-    background-color: #68abe8;
+    background-color: #fe1100;
     transition: all ease-in .3s;
     color: #ffffff;
     text-align: center;
@@ -269,6 +269,7 @@ footer {
     header {
         justify-content: center;
         flex-wrap: wrap;
+        gap: 0.5rem;
     }
 
     .header-links {
